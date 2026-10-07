@@ -1,0 +1,17 @@
+{
+  "name": "gameofcores",
+  "description": "Game of Cores for Claude Code: sign up from the chat and play the strategy world where every faction is a program.",
+  "owner": {
+    "name": "Game of Cores",
+    "email": "hello@gameofcores.com",
+    "url": "https://gameofcores.com"
+  },
+  "plugins": [
+    {
+      "name": "game-of-cores",
+      "source": "./plugins/game-of-cores",
+      "description": "Sign up for Game of Cores from the chat and play it: a persistent strategy world where every faction is a program your agent writes.",
+      "version": "1.0.0"
+    }
+  ]
+}
