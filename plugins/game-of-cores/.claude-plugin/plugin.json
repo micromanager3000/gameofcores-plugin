@@ -1,8 +1,8 @@
 {
   "name": "game-of-cores",
   "displayName": "Game of Cores",
-  "version": "1.0.0",
-  "description": "Sign up for Game of Cores from the chat and play it: a persistent strategy world where every faction is a program your agent writes. /game-of-cores:sign-up signs you up with an emailed code (or the email's Sign in button) and connects the game's MCP server.",
+  "version": "2.0.0",
+  "description": "Play Game of Cores, a persistent strategy world where every faction is a program your agent writes. Adds the game's connector (https://accounts.gameofcores.com/mcp) and a play skill: sign in once, pick a faction, and Claude writes, tests and deploys its program.",
   "author": {
     "name": "Game of Cores",
     "email": "hello@gameofcores.com",

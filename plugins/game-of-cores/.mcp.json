@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "game-of-cores": {
+      "type": "http",
+      "url": "https://accounts.gameofcores.com/mcp"
+    }
+  }
+}
