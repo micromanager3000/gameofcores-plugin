@@ -1,6 +1,6 @@
 {
   "name": "gameofcores",
-  "description": "Game of Cores for Claude Code: sign up from the chat and play the strategy world where every faction is a program.",
+  "description": "Game of Cores for Claude: play the strategy world where every faction is a program, from Claude Code or the Claude apps.",
   "owner": {
     "name": "Game of Cores",
     "email": "hello@gameofcores.com",
@@ -10,8 +10,8 @@
     {
       "name": "game-of-cores",
       "source": "./plugins/game-of-cores",
-      "description": "Sign up for Game of Cores from the chat and play it: a persistent strategy world where every faction is a program your agent writes.",
-      "version": "1.0.0"
+      "description": "Play Game of Cores, a persistent strategy world where every faction is a program your agent writes. Adds the game's connector and a play skill.",
+      "version": "2.0.0"
     }
   ]
 }
