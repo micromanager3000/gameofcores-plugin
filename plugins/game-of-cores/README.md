@@ -19,8 +19,9 @@ In claude.ai or the desktop app, open Customize > Plugins, choose Add > Add mark
 
 Say "Let's play Game of Cores." The first time, Claude signs you in. Signing up is free.
 
-- In Claude Code, Claude asks for your email, and you paste the 8-digit code we send you into the chat. To sign in
-  through the browser instead, type `/mcp`, pick `game-of-cores`, choose **Authenticate** and press **Allow**.
+- In Claude Code, Claude asks for your email and a display name, and you paste the 8-digit code we send you into the
+  chat. To sign in through the browser instead, type `/mcp`, pick `game-of-cores`, choose **Authenticate** and press
+  **Allow**.
 - In claude.ai, the desktop app or Cowork, connect Game of Cores on this plugin's **Connectors** tab. Sign in on the
   page that opens, then press **Allow**.
 
