@@ -1,7 +1,7 @@
 {
   "name": "game-of-cores",
   "displayName": "Game of Cores",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Play Game of Cores, a persistent strategy world where every faction is a program your agent writes. Adds the game's connector (https://accounts.gameofcores.com/mcp) and a play skill: sign in once, pick a faction, and Claude writes, tests and deploys its program.",
   "author": {
     "name": "Game of Cores",
