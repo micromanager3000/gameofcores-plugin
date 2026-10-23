@@ -11,7 +11,7 @@
       "name": "game-of-cores",
       "source": "./plugins/game-of-cores",
       "description": "Play Game of Cores, a persistent strategy world where every faction is a program your agent writes. Adds the game's connector and a play skill.",
-      "version": "2.1.0"
+      "version": "2.1.1"
     }
   ]
 }

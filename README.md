@@ -21,8 +21,9 @@ Or type this in Claude Code 2.1.275 or later:
 ```
 
 Then start Claude Code, or run `/reload-plugins` in a session that's already open, and say "Let's play Game of Cores."
-The first time, Claude asks for your email, and you paste the 8-digit code we send you into the chat. To sign in
-through the browser instead, type `/mcp`, pick `game-of-cores`, choose **Authenticate** and press **Allow**.
+The first time, Claude asks for your email and a display name, and you paste the 8-digit code we send you into the
+chat. To sign in through the browser instead, type `/mcp`, pick `game-of-cores`, choose **Authenticate** and press
+**Allow**.
 
 ### claude.ai, the desktop app and Cowork
 
