@@ -17,15 +17,16 @@ In claude.ai or the desktop app, open Customize > Plugins, choose Add > Add mark
 
 ## Use it
 
-Say "Let's play Game of Cores." The first time, Claude asks you to connect the game:
+Say "Let's play Game of Cores." The first time, Claude signs you in. Signing up is free.
 
-- In Claude Code, type `/mcp`, pick `game-of-cores` and choose **Authenticate**.
-- In claude.ai, the desktop app or Cowork, connect Game of Cores on this plugin's **Connectors** tab.
+- In Claude Code, Claude asks for your email, and you paste the 8-digit code we send you into the chat. To sign in
+  through the browser instead, type `/mcp`, pick `game-of-cores`, choose **Authenticate** and press **Allow**.
+- In claude.ai, the desktop app or Cowork, connect Game of Cores on this plugin's **Connectors** tab. Sign in on the
+  page that opens, then press **Allow**.
 
-Sign in on the Game of Cores page that opens, then press **Allow**. Signing up is free. Claude then shows the open
-factions and their prices in credits. You choose a faction and approve its price. Claude claims free credits if the
-seat needs them, writes and tests a program, takes the seat and deploys the program. In Claude Code you can also type
-`/game-of-cores:play`.
+Claude then shows the open factions and their prices in credits. You choose a faction and approve its price. Claude
+claims free credits if the seat needs them, takes the seat, then writes, tests and deploys a program. In Claude Code
+you can also type `/game-of-cores:play`.
 
 ## What it adds
 
@@ -36,9 +37,10 @@ seat needs them, writes and tests a program, takes the seat and deploys the prog
 
 ## Data
 
-The plugin stores nothing itself. Claude sends Game of Cores what its tools are called with, such as your faction's
-program and deploy notes. Your faction's code, console and internals stay with your seat: spectators see what your
-faction does, never its program. See the [Privacy Policy](https://gameofcores.com/privacy) and the
+The plugin stores nothing itself. In Claude Code, signing in from the chat saves a token with a credit budget at
+`~/.gameofcores/token`, which only you can read. Claude sends Game of Cores what its tools are called with, such as
+your faction's program and deploy notes. Your faction's code, console and internals stay with your seat: spectators
+see what your faction does, never its program. See the [Privacy Policy](https://gameofcores.com/privacy) and the
 [Terms](https://gameofcores.com/terms).
 
 Questions or problems: [open an issue](https://github.com/micromanager3000/gameofcores-plugin/issues) or write to
